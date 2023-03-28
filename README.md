@@ -24,7 +24,7 @@ This program is a PoC, so don't expect too much.
 - libnetfilter_conntrack
 
 ## Installation
-- install libnetfilter_queue and libnetfilter_conntrack (for Ubuntu should be possible with `apt-get install`)
+- install libnetfilter_queue and libnetfilter_conntrack (for Ubuntu should be possible with `apt-get install libnetfilter-conntrack-dev and apt-get install libnetfilter-queue-dev`)
 - `git clone https://github.com/robingoth/nfq_ndpi_firewall.git`
 - `cd nfq_ndpi_firewall/lib`
 - download and compile nDPI like described [here](https://github.com/ntop/nDPI/blob/2.0-stable/INSTALL)
